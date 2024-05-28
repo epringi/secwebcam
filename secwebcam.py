@@ -109,9 +109,8 @@ except FileNotFoundError:
 
 cam=cv2.VideoCapture(camdevice)
 # Uncomment and adjust the below lines with a different resolution if you prefer.
-cam.set(cv2.CAP_PROP_FRAME_WIDTH, 640.0)
-cam.set(cv2.CAP_PROP_FRAME_HEIGHT, 480.0)
-cam.set(cv2.CAP_PROP_FPS, 30.0)
+#cam.set(cv2.CAP_PROP_FRAME_WIDTH, 640.0)
+#cam.set(cv2.CAP_PROP_FRAME_HEIGHT, 480.0)
 
 # Initialise the frame buffer with the first <maxframes> frames
 for i in range(0, maxframes):
